@@ -1,0 +1,8 @@
+folium==0.16.0
+gpxpy==1.6.2
+matplotlib==3.8.3
+numpy==2.2.1
+pandas==2.2.3
+PyQt5==5.15.11
+PyQt5_sip==12.15.0
+tqdm==4.66.2
