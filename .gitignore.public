@@ -1,0 +1,7 @@
+results/
+*.html
+*.spec
+dist/
+build/
+*.gpx
+*.csv
