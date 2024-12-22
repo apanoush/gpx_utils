@@ -204,6 +204,9 @@ if __name__ == '__main__':
     print(f'Stored Output Path: {activites.output_path}')
 
     activites.get_all_gpx_paths()
+
+    assert activites.paths, "No GPX Files Found"
+
     activites.convert_gpx_to_html()
 
     assert os.path.isfile(activites.output_path), "Conversion Failed"
